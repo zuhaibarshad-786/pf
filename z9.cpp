@@ -1,0 +1,60 @@
+#include<iostream>
+using namespace std;
+main(){
+
+float number1;
+float number2;
+float number3;
+float number4;
+float number5;
+float number6;
+float number7;
+float number8;
+float number9;
+float number10;
+float number11;
+float number12;
+float number13;
+float number14;
+float number15;
+float add;
+float subtract;
+float multiply;
+float total;
+cout<<"enter first number:";
+cin>>number1;
+cout<<"enter sec number:";
+cin>>number2;
+cout<<"enter third number:";
+cin>>number3;
+cout<<"enter fourth number:";
+cin>>number4;
+cout<<"enter five number:";
+cin>>number5;
+cout<<"enter six number:";
+cin>>number6;
+cout<<"enter seven number:";
+cin>>number7;
+cout<<"enter eight number:";
+cin>>number8;
+cout<<"enter nine number:";
+cin>>number9;
+cout<<"enter ten number:";
+cin>>number10;
+cout<<"enter eleven number:";
+cin>>number11;
+cout<<"enter twelwe number:";
+cin>>number12;
+cout<<"enter thirteen number:";
+cin>>number13;
+cout<<"enter fourteen number:";
+cin>>number14;
+cout<<"enter fifteen number:";
+cin>>number15;
+add=number1+number2+number3+number4+number5;
+multiply=number6+number7+number8+number9+number10;
+subtract=number11-number12-number13-number14-number15;
+total=(add+multiply)-subtract;
+cout<<"total:"<<total<<endl;
+
+}
